@@ -1,0 +1,30 @@
+* {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  border: 10px solid lightsalmon;
+  flex-direction: column;
+  background-color: #b5b6c9;
+  margin: 10fr;
+  flex-direction: row;
+}
+
+.nav_list {
+}
+
+.box_nav {
+  color: ;
+  background-color: lightsalmon;
+  border: 1px solid lightcoral;
+  border-radius: 3pt;
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
+  width: 100px;
+}

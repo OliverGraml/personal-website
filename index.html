@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My personal website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Oliver Graml</h1>
-        <nav>
+        <h1>OLIVER GRAML</h1>
+        <nav class="navigation">
             <ul>
                 <li>
                     <a href="#contact">Contact</a>
@@ -23,23 +24,93 @@
 
     <main>
 
-        <img src="./Passbild_SW.jpeg" alt="Foto von Oliver Graml in Frontalansicht" width="250">
+        <img src="./pictures/Passbild_SW.jpeg" alt="Foto von Oliver Graml in Frontalansicht" width="250">
+
+      <h2 id="contact">Contact</h2>     
+      <article>
+          <h3>Skills:</h3>
+          <ul>
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>Responsive design</li>
+              <li>Testing and debugging</li>
+          </ul>
+      </article>
+
+      <article>
+          <h3>Interests:</h3>
+          <ul>
+              <li>Do music (Guitar, Piano)</li>
+              <li>Hiking</li>
+              <li>Books</li>
+          </ul>
+      </article>
+
+      <article>
+          <h3>Contact Information:</h3>
+          <ul>
+              <li>E-Mail: max.mustermann@gmx.de</li>
+              <li>Phone: 0151/123456</li>
+              <li>Location: Munich area</li>
+          </ul>
+          <h3>Links:</h3>
+          <a href="https://www.github.com/olivergraml"> <img src="./pictures/github_logo.png" alt="Logo from Github" width="100" height=""></a>
+          <a href="https://www.codepen.io/Oliver_GG/"> <img src="./pictures/codepen_logo2.png" alt="Logo from Codepen" width="100" height=""></a>
+          <a href="https://www.linkedin.com/in/oliver-graml-571665196/"> <img src="./pictures/linkedIn_logo.png" alt="Logo from LinkedIn" width="100" height=""></a>
+      </article>
+
+ <h2 id="biography">Biography</h2>
 
       <article>
           <h3>Introduction</h3>
-          <p> After my military career, I went back to school to get my High School Diploma from Bundeswehrfachschule. Then I did my bachelor's degree at Munich School of Philosophy and currently I am doing my master's at the Ludwig-Maximilians-Universität Munich. Next to my studies, I'am the Managing Director of Montessori Unterschleißheim e.V., a non-profit association that runs a private school with 30 employees. My tasks there include the general management, setting the strategic course of the society, planning a new school building and currently the digital change management in school and society. </p>
-      </article>  
-      <article>
-          <h3>CV-Story</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis maiores earum asperiores aliquid pariatur rem corrupti, sed, quisquam magnam deleniti vitae ducimus. Ullam optio, voluptatum accusamus non velit odio harum?
-          Molestiae, vel fugit nostrum asperiores expedita obcaecati tempore ullam sequi laborum, culpa delectus aliquid incidunt error inventore maiores odio numquam illo ratione, quibusdam unde! Amet aspernatur ipsum architecto eum earum.
-          Cupiditate magni non consequuntur vero pariatur ad maiores tenetur quas ipsam accusamus, quidem modi voluptatibus omnis, nulla ducimus repellat perspiciatis ipsa aliquid. Odio, itaque quas. Incidunt veritatis excepturi pariatur deserunt.</p>
+          After my military career, I did a bachelor's degree in Philosophy in Munich and in addition a certificate course in Data Science and Business Analytics at the University of Applied Sciences Kempten. I work as Managing Director at a Non-Profit-Organisation in the Munich area since 2019. In order to develope myself professionaly for new tasks, I am currently doing an intensiv 3-month bootcamp in Web Development at neuefische GmbH.
       </article>
+
       <article>
-          <h3>What else?</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis nemo quo ipsum a est omnis illo consequuntur dolorem natus, quisquam quaerat at magni esse sunt, optio nesciunt maxime, deleniti aliquam?
-          Necessitatibus nihil delectus voluptatem amet! Accusantium suscipit iure necessitatibus officia repellat eos dolor! Earum quos sunt impedit eveniet, molestias necessitatibus, doloremque consequuntur placeat facilis quam quis fugit, odio fuga sit?
-          Beatae voluptatem voluptate rem fuga soluta minima ab est, sunt sequi provident modi odit accusantium quisquam voluptas quidem, amet sint nam deserunt, harum iure illum itaque dicta dignissimos consequatur? Deleniti.</p>
+          <h3>CV</h3>
+          <table border="1">
+              <tr>
+                  <th colspan="3">Working experience</th>
+              </tr>
+              <tr>
+                  <td>Apr. 21 - Jul. 21</td>
+                  <td>Trainee Web Development</td>
+                  <td>neuefische GmbH - School and Pool for Digital Talent</td>
+              </tr>
+              <tr>
+                  <td>Jul. 19 - today</td> 
+                  <td>Managing Director</td>
+                  <td>Montessori Unterschleißheim e.V.</td>
+              </tr>
+              <tr>
+                  <td>Jul. 16 - Aug. 17</td>
+                  <td>Honorary Director Finance and HR</td>
+                  <td>Montessori Unterschleißheim e.V.</td>
+              </tr>
+              <tr>
+                  <td>Apr. 07 - Jul. 16</td>
+                  <td>Infantry Team Leader (Reconnaissance)</td>
+                  <td>Bundeswehr (German Armed Forces)</td>
+              </tr>
+              <tr>
+                  <th colspan="3">Education</th>
+              </tr>
+              <tr>
+                  <td>Apr. 17 - Aug. 20</td>
+                  <td>Bachelor of Arts in Philosophy</td>
+                  <td>School of Philosophy Munich</td>
+              </tr>
+              <tr>
+                  <td>Mrz. 19 - Aug. 19</td>
+                  <td>Certificate in Data Science and Business Analytics</td>
+                  <td>Professional School of Business and Technology - University of Applied Science Kempten</td>
+              </tr>
+              <tr>
+                  <td>Jun. 14 - Aug. 16</td>
+                  <td>High School Diploma with focus on technology</td>
+                  <td>German Armed Forces College</td>
+              </tr>
+          </table>
       </article>
     </main>
 
